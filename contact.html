@@ -8,10 +8,7 @@
     body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background-image: url("images/GrassBlockTop.png");
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: top;
+        background-color: #432b01;
     }
 
     .navbar {
@@ -82,6 +79,38 @@
             margin: 10px 0;
         }
     }
+
+    .content {
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .content a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .content a:hover {
+        text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -94,11 +123,15 @@
         <li><a href="mods.html">Bedrock Add-Ons</a></li>
         <li><a href="contact.html">Contact</a></li>
     </nav>
-    <h1>DudeDroccoli186</h1>
-    <p>Welcome to my contact page! If you have any questions or just want to say hi, feel free to reach out!</p>
-    <p>You can reach me at torchlakeboy@gmail.com</p>
-    <p>Or sub to my friend on YouTube: <a href="https://www.youtube.com/@Jimrickruls?sub_confirmation=1" target="_blank">SUB!!</a></p>
-</form>
-
+    <div class="content">
+        <h1>DudeDroccoli186</h1>
+        <p>Welcome to my contact page! If you have any questions or just want to say hi, feel free to reach out!</p>
+        <p>You can reach me at torchlakeboy@gmail.com</p>
+        <p>Or sub to my friend on YouTube: 
+          <a href="https://www.youtube.com/@Jimrickruls?sub_confirmation=1" target="_blank">
+            <img src="images/sub.png" alt="Subscribe" style="height:32px; vertical-align:middle;">
+          </a>
+        </p>
+    </div>
 </body>
 </html>

@@ -8,10 +8,7 @@
     body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background-image: url("images/background.jpg");
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: top;
+        background-color: #432b01;
     }
 
     .navbar {
@@ -87,6 +84,36 @@
         max-width: 20%; 
         height: auto; 
     }
+
+    .content {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .content h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .content a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .content a:hover {
+        text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -99,6 +126,7 @@
         <li><a href="mods.html">Bedrock Add-Ons</a></li>
         <li><a href="contact.html">Contact</a></li>
     </nav>
+    <div class="content">
     <h1>DudeDroccoli186</h1>
     <p>Welcome to the Skins page! Here you can find various skins for your Minecraft character.</p>
     <img class="small-skin" src="skins/mobs_cover.png" alt="Mobs Cover Image">
@@ -109,5 +137,6 @@
         <a href="skins/Skins/snowgolom.png" download><img class="small-skin" src="skins/Skins/snowgolom.png" alt="Snow Golom"></a>
         <a href="skins/Skins/villager.png" download><img class="small-skin" src="skins/Skins/villager.png" alt="Villager"></a>
         <a href="skins/Skins/zombie.png" download><img class="small-skin" src="skins/Skins/zombie.png" alt="Zombie"></a>
+    </div>
 </body>
 </html>
